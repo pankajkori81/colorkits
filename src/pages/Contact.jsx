@@ -68,7 +68,7 @@ const Contact = ({ darkMode }) => {
         title="Contact Us - Get in Touch with ColorKits"
         description="Have questions or feedback about ColorKits? Contact us and we'll get back to you within 24-48 hours."
         keywords="contact colorkits, support, feedback, contact us"
-        url="https://colorkits.vercel.app/pages/contact"
+        url="https://www.colorkits.online/pages/contact"
       />
     
    
