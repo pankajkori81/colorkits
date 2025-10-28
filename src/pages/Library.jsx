@@ -186,13 +186,14 @@ const Library = ({ darkMode }) => {
 
     <>
     
-      <SEO 
+    <SEO 
         title="Color Library - Browse 100+ Named Colors with Codes"
         description="Complete library of named colors with HEX, RGB, and HSL codes. Search and copy codes for red, blue, green, and 100+ other colors."
         keywords="color library, named colors, color names, color codes, hex codes list, rgb codes, color reference"
-        url="https://colorkits.vercel.app/pages/library"
+        url="https://www.colorkits.online/pages/library"
       />
 
+      
     <div className="max-w-7xl mx-auto space-y-8">
       {/* Header */}
       <div className="text-center">
