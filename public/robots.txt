@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+
+Allow: /pages/
+Allow: /convert/
+Allow: /tools/
+Allow: /support/
+
+
+Sitemap: https://www.colorkits.online/sitemap.xml
