@@ -239,12 +239,11 @@ const FAQ = ({ darkMode }) => {
   return (
 
     <>
-    
        <SEO 
         title="FAQ - Frequently Asked Questions"
         description="Find answers to common questions about ColorKits tools and features. Learn how to use color picker, palette generator, gradient maker, contrast checker, and more."
         keywords="ColorKits FAQ, color tools help, how to use color picker, palette generator guide, gradient maker tutorial, color questions, design tools help"
-        url="https://colorkits.vercel.app/faq"
+        url="https://www.colorkits.online/support/faq"
         type="website"
       />
 
