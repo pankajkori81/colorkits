@@ -32,11 +32,11 @@ const BlogPost = ({ darkMode }) => {
 
     <>
     
-       <SEO 
+        <SEO 
         title={post.title}
         description={post.description}
         keywords={post.tags.join(', ')}
-        url={`https://colorkits.vercel.app/pages/blog/${post.slug}`}
+        url={`https://www.colorkits.online/pages/blog/${post.slug}`}
         type="article"
       />
     
