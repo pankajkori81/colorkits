@@ -31,11 +31,12 @@ const Blog = ({ darkMode }) => {
 
     <>
     
-          <SEO 
+
+         <SEO 
         title="ColorKits Blog - Color Guides and Design Tips"
         description="Learn about color codes, conversion tips, and design tricks. Practical guides for working with colors in design and development."
         keywords="color blog, design tips, color theory, web design blog, color guides, design tutorials"
-        url="https://colorkits.vercel.app/pages/blog"
+        url="https://www.colorkits.online/pages/blog"
         type="blog"
       />
 
