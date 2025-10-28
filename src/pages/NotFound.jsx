@@ -19,14 +19,15 @@ const NotFound = ({ darkMode }) => {
 
     <>
     
-   <SEO
+    <SEO
         title="404 - Page Not Found"
         description="The page you're looking for doesn't exist. Explore ColorKits color tools including color picker, palette generator, gradient maker, and more."
         keywords="404, page not found, ColorKits, color tools"
-        url="https://colorkits.vercel.app/404"
+        url="https://www.colorkits.online/404"
         type="website"
       />
 
+      
     <div className="min-h-[80vh] flex items-center justify-center px-4">
       <div className="max-w-2xl w-full text-center">
         {/* 404 Animation */}
