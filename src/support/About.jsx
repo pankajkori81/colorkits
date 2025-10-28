@@ -19,11 +19,11 @@ const About = ({ darkMode }) => {
     <>
     
      
-        <SEO 
+          <SEO 
         title="About ColorKits - Free Color Tools by Pankaj Kori"
         description="Learn about ColorKits and why we built these free color tools for designers and developers. Created by Pankaj Kori to make color work easier."
         keywords="about colorkits, pankaj kori, color tools, free design tools"
-        url="https://colorkits.vercel.app/support/about"
+        url="https://www.colorkits.online/support/about"
         type="about"
       />
     
