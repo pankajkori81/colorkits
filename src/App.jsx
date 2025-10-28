@@ -23,6 +23,7 @@ import CookieConsent from './components/CookieConsent';
 import FAQ from './support/FAQ';
 import NotFound from './pages/NotFound';
 
+
 function App() {
   const [darkMode, setDarkMode] = useState(false);
 
