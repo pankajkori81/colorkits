@@ -15,12 +15,13 @@ const Terms = ({ darkMode }) => {
     <>
     
     
-     <SEO 
+       <SEO 
         title="Terms of Service - ColorKits"
         description="ColorKits terms of service. Read our usage terms and conditions for using our free color tools."
         keywords="terms of service, usage terms, conditions"
-        url="https://colorkits.vercel.app/support/terms"
+        url="https://www.colorkits.online/support/terms"
       />
+    
     
     
 
