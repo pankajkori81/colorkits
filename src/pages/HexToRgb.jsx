@@ -101,12 +101,13 @@ const HexToRgb = ({ darkMode }) => {
     <>
     
 
-      <SEO 
+       <SEO 
         title="HEX to RGB Converter - Convert HEX Colors to RGB Values"
         description="Convert HEX color codes to RGB values instantly. Break down hex codes into red, green, and blue numbers. Get HSL and CMYK too."
         keywords="hex to rgb, convert hex to rgb, hex rgb converter, color converter, hexadecimal to rgb"
-        url="https://colorkits.vercel.app/convert/hex-to-rgb"
+        url="https://www.colorkits.online/convert/hex-to-rgb"
       />
+    
     
 
 
