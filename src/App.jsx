@@ -20,6 +20,8 @@ import BlogPost from './pages/BlogPost';
 import Library from './pages/Library';
 import Feedback from './pages/Feedback';
 import CookieConsent from './components/CookieConsent';
+import FAQ from './support/FAQ';
+import NotFound from './pages/NotFound';
 
 function App() {
   const [darkMode, setDarkMode] = useState(false);
@@ -45,11 +47,16 @@ function App() {
           <Route path="/pages/blog" element={<Blog darkMode={darkMode} />} />
           <Route path="/pages/blog/:slug" element={<BlogPost darkMode={darkMode} />} />
           <Route path="/pages/feedback" element={<Feedback darkMode={darkMode} />} />
+          <Route path="/support/faq" element={<FAQ darkMode={darkMode} />} />
+
           <Route path="/convert/hex-to-rgb" element={<HexToRgb darkMode={darkMode} />} />
           <Route path="/convert/rgb-to-hex" element={<RgbToHex darkMode={darkMode}/>} />
 
           <Route path="/tools/contrast-checker" element={<ContrastChecker darkMode={darkMode} />} />
           <Route path="/tools/color-mixer" element={<ColorMixer darkMode={darkMode} />} />
+
+          <Route path="*" element={<NotFound darkMode={darkMode} />} />
+
 
         </Routes>
       </main>
