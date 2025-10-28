@@ -66,12 +66,14 @@ const ColorMixer = ({ darkMode }) => {
     <>
     
     
-       <SEO 
+         <SEO 
         title="Color Mixer - Blend Two Colors Together"
         description="Mix any two colors and create custom shades. Adjust the blend ratio and get the resulting color code. Perfect for finding that exact shade."
         keywords="color mixer, blend colors, mix colors, color blender, combine colors, color mixing tool"
-        url="https://colorkits.vercel.app/tools/color-mixer"
+        url="https://www.colorkits.online/tools/color-mixer"
       />
+
+ 
 
  
 
