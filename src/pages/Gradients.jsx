@@ -46,12 +46,11 @@ const Gradients = ({ darkMode }) => {
     
     <>
     
-
-        <SEO 
+     <SEO 
         title="Gradient Maker - Create Smooth CSS Gradients"
         description="Design beautiful gradients and get instant CSS code. Pick colors, adjust angles, and copy ready-to-use gradient code for your designs."
         keywords="gradient maker, css gradient, gradient generator, linear gradient, color gradient, gradient tool"
-        url="https://colorkits.vercel.app/pages/gradients"
+        url="https://www.colorkits.online/pages/gradients"
       />
     
  
