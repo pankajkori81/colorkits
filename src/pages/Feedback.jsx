@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { MessageSquare, Send, Star } from 'lucide-react';
 import AdSpace from '../components/AdSpace';
+import SEO from '../components/SEO';
+
 
 const Feedback = ({ darkMode }) => {
   const [formData, setFormData] = useState({
@@ -86,6 +88,19 @@ const Feedback = ({ darkMode }) => {
   };
 
   return (
+
+    <>
+
+          <SEO 
+  title="ColorKits Feedback - Share Your Thoughts and Suggestions"
+  description="Submit your feedback, bug reports, and feature requests to help us improve ColorKits. Your insights shape the future of our platform."
+  keywords="feedback form, user suggestions, bug report, feature request, ColorKits feedback, platform improvement"
+  url="https://www.colorkits.online/pages/feedback"
+  type="feedback"
+/>
+
+    
+    
     <div className="space-y-8">
       <div className={`${cardClass} rounded-2xl border p-8 shadow-xl max-w-3xl mx-auto`}>
         <h1 className={`text-4xl font-bold ${textClass} mb-6 flex items-center`}>
@@ -234,6 +249,7 @@ const Feedback = ({ darkMode }) => {
         <AdSpace size="728x90" darkMode={darkMode} />
       </div>
     </div>
+        </>
   );
 };
 
