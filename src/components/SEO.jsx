@@ -8,12 +8,12 @@ const SEO = ({
   description = 'Professional color tools for designers and developers. Pick colors, generate palettes, create gradients, convert formats, and check contrast. Free HEX, RGB, HSL color codes.',
   keywords = 'color picker, hex color, rgb to hex, color palette generator, gradient maker, contrast checker, color converter, color tools, web design, design tools',
   ogImage = '/images/og-image.png',
-  url = 'https://colorkits.vercel.app',
+  url = 'https://www.colorkits.online/',
   type = 'website',
   author = 'Pankaj Kori'
 }) => {
   
-  const fullTitle = title.includes('ColorKits') ? title : `${title} | ColorKits`;
+  const fullTitle = title.includes('colorkits') ? title : `${title} | colorkits`;
   const canonicalUrl = url.endsWith('/') ? url.slice(0, -1) : url;
 
   return (
