@@ -124,13 +124,12 @@ const ImageColorExtractor = ({ darkMode }) => {
     <>
     
 
-      <SEO 
+    <SEO 
         title="Image Color Extractor - Extract Colors from Photos"
         description="Upload any image and extract dominant colors with HEX codes. Perfect for creating color palettes from photos and matching brand colors."
         keywords="color extractor, image color picker, extract colors from image, photo color palette, color from image"
-        url="https://colorkits.vercel.app/pages/image-color"
+        url="https://www.colorkits.online/pages/image-color"
       />
-    
 
 
     <div className={`min-h-screen ${bgClass} transition-colors duration-300 p-4 md:p-8`}>
