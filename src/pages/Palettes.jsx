@@ -56,7 +56,7 @@ const Palettes = ({ darkMode }) => {
         title="Palette Generator - Create Beautiful Color Schemes"
         description="Generate harmonious color palettes instantly. Create monochromatic, complementary, and analogous color schemes. Save and share your palettes."
         keywords="color palette generator, color scheme generator, color harmony, palette creator, color combinations"
-        url="https://colorkits.vercel.app/pages/palettes"
+        url="https://www.colorkits.online/pages/palettes"
       />
     
  
