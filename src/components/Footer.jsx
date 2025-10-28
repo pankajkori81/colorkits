@@ -22,8 +22,9 @@ const Footer = ({ darkMode }) => {
           
           {/* Company Section */}
           <div className="min-w-[200px]">
-            <h4 className={`font-bold ${textClass} mb-4`}>Company</h4>
+            <h4 className={`font-bold ${textClass} mb-4`}>Support</h4>
             <ul className="space-y-2">
+              <li><Link to="/support/faq" className={`${textSecondaryClass} hover:text-purple-500 transition-all duration-300`}>FAQ</Link></li>
               <li><Link to="/support/about" className={`${textSecondaryClass} hover:text-purple-500 transition-all duration-300`}>About Us</Link></li>
               <li><Link to="/pages/contact" className={`${textSecondaryClass} hover:text-purple-500 transition-all duration-300`}>Contact</Link></li>
               <li><Link to="/support/privacy" className={`${textSecondaryClass} hover:text-purple-500 transition-all duration-300`}>Privacy Policy</Link></li>
