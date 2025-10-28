@@ -69,13 +69,12 @@ const ContrastChecker = ({ darkMode }) => {
 
     <>
     
-      <SEO 
+     <SEO 
         title="Contrast Checker - Test Color Accessibility WCAG"
         description="Check if your text colors meet WCAG accessibility standards. Test contrast ratios between text and background colors for readable designs."
         keywords="contrast checker, wcag contrast, color contrast, accessibility checker, color accessibility, wcag compliance"
-        url="https://colorkits.vercel.app/tools/contrast-checker"
+        url="https://www.colorkits.online/tools/contrast-checker"
       />
-    
    
 
 
