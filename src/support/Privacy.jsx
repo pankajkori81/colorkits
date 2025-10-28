@@ -15,12 +15,14 @@ const Privacy = ({ darkMode }) => {
 
     <>
     
+        
        <SEO 
         title="Privacy Policy - ColorKits"
         description="ColorKits privacy policy. Learn how we handle your data and protect your privacy while using our color tools."
         keywords="privacy policy, data protection, user privacy"
-        url="https://colorkits.vercel.app/support/privacy"
+        url="https://www.colorkits.online/support/privacy"
       />
+
 
 
 
