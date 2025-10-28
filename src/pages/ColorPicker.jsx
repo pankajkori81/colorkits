@@ -202,11 +202,12 @@ const ColorPicker = ({ darkMode }) => {
 
     <>
     
+      
         <SEO 
         title="Color Picker - Pick Any Color, Get Instant Codes"
         description="Professional color picker tool with HEX, RGB, and HSL codes. Pick colors visually with sliders and get instant codes. Perfect for web designers and developers."
         keywords="color picker, pick color, hex color picker, rgb color picker, hsl color, color selector, visual color picker"
-        url="https://colorkits.vercel.app/"
+        url="https://www.colorkits.online/"
       />
       
 
