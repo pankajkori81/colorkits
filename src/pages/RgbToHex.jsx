@@ -82,11 +82,11 @@ const RgbToHex = ({ darkMode }) => {
 
     <>
     
-       <SEO 
+        <SEO 
         title="RGB to HEX Converter - Convert RGB Colors to HEX Codes"
         description="Convert RGB values to HEX color codes instantly. Get HSL and CMYK values too. Free color format converter for designers."
         keywords="rgb to hex, convert rgb to hex, rgb hex converter, color converter, rgb to hexadecimal"
-        url="https://colorkits.vercel.app/convert/rgb-to-hex"
+        url="https://www.colorkits.online/convert/rgb-to-hex"
       />
 
 
