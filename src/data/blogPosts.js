@@ -189,12 +189,6 @@ export const blogPosts = [
       <p><strong>Q: How many colors should I use on my website?</strong></p>
       <p>A: Stick to 3-5 colors: one primary, one or two secondary, and neutrals. More than this creates visual confusion.</p>
 
-      <p><strong>Q: What's the best color for a CTA button?</strong></p>
-      <p>A: Orange and red typically convert best, but it depends on your overall color scheme. The CTA should contrast strongly with the background.</p>
-
-      <p><strong>Q: Should my website have a dark mode?</strong></p>
-      <p>A: If your audience includes developers, designers, or people who use your site at night, yes. Otherwise, it's optional but increasingly expected.</p>
-
       <p><strong>Q: How do I choose colors for my brand?</strong></p>
       <p>A: Start with your brand personality and values, then use color psychology to find colors that express those qualities. Test with your target audience.</p>
 
