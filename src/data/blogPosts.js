@@ -175,7 +175,7 @@ export const blogPosts = [
         <li><a href="/">Color Picker</a> - Find perfect colors visually</li>
         <li><a href="/pages/palettes">Palette Generator</a> - Create harmonious combinations</li>
         <li><a href="/pages/image-color">Image Extractor</a> - Extract colors from photos</li>
-        <li><a href="/pages/gradients'">Gradient Maker</a> - Design beautiful gradients</li>
+        <li><a href="/pages/gradients">Gradient Maker</a> - Design beautiful gradients</li>
       </ul>
 
       
