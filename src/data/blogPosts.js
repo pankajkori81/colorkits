@@ -3,7 +3,7 @@ export const blogPosts = [
   {
   id: 1,
   slug: "ultimate-color-theory-for-web-designers",
-  title: "🎨 Ultimate Color Theory for Web Designers - Complete Guide 2025",
+  title: "Ultimate Color Theory for Web Designers - Complete Guide 2025",
   image: "/images/blog/color-mixer-tool.png",
   description: "Master color theory fundamentals, psychology, and practical workflows to create stunning web designs. Learn how to choose perfect color combinations and avoid common mistakes.",
   content: `
@@ -84,15 +84,15 @@ export const blogPosts = [
 
 
       <div class="color-psychology">
-        <p><strong>🟤 Dark Brown:</strong> Stability, reliability, warmth. Often used in natural or vintage designs.</p>
+        <p><strong>Dark Brown:</strong> Stability, reliability, warmth. Often used in natural or vintage designs.</p>
         
-        <p><strong>🟢 Bright Green:</strong> Freshness, growth, eco-friendliness. Signals health and vitality.</p>
+        <p><strong>Bright Green:</strong> Freshness, growth, eco-friendliness. Signals health and vitality.</p>
         
-        <p><strong>🟠 Bright Orange:</strong> Energy, enthusiasm, creativity. Great for calls to action and youth-focused brands.</p>
+        <p><strong>Bright Orange:</strong> Energy, enthusiasm, creativity. Great for calls to action and youth-focused brands.</p>
         
-        <p><strong>💚 Neon Green:</strong> Strong visibility and modernity. Popular in tech, gaming, or nightlife themes.</p>
+        <p><strong>Neon Green:</strong> Strong visibility and modernity. Popular in tech, gaming, or nightlife themes.</p>
         
-        <p><strong>💗 Bright Pink:</strong> Playfulness, emotion, youthfulness. Popular in fashion, beauty, and lifestyle brands.</p>
+        <p><strong>Bright Pink:</strong> Playfulness, emotion, youthfulness. Popular in fashion, beauty, and lifestyle brands.</p>
       </div>
 
       <div class="color-tool-example" style="margin: 30px 0;">
@@ -112,6 +112,8 @@ export const blogPosts = [
       <p>Ask yourself: Is your brand...</p>
       <ul>
         <li>Professional or playful?</li>
+        <li>Luxurious or affordable?</li>
+        <li>Bold or subtle?</li>
         <li>Traditional or modern?</li>
       </ul>
 
@@ -126,6 +128,7 @@ export const blogPosts = [
       <p>Create variations including:</p>
       <ul>
         <li>3-5 shades of your primary color</li>
+        <li>1-2 complementary or accent colors</li>
         <li>Neutral colors (grays, white, black)</li>
         <li>Success, warning, and error colors for UI states</li>
       </ul>
@@ -135,11 +138,12 @@ export const blogPosts = [
         <li>Apply to actual designs</li>
         <li>Check on different screens</li>
         <li>Test with real content</li>
+        <li>Verify accessibility standards</li>
       </ul>
 
       <h2>Part 4: Common Color Mistakes to Avoid</h2>
 
-      <h3>❌ Mistake 1: Too Many Colors</h3>
+      <h3>Mistake 1: Too Many Colors</h3>
       <p><strong>Problem:</strong> Using 6+ colors creates visual chaos and confusion.</p>
       <p><strong>Solution:</strong> Stick to 3-5 colors maximum:</p>
       <ul>
@@ -149,7 +153,7 @@ export const blogPosts = [
         <li>UI state colors (success, error, warning)</li>
       </ul>
 
-      <h3>❌ Mistake 2: Not Testing on Different Screens</h3>
+      <h3>Mistake 2: Not Testing on Different Screens</h3>
       <p><strong>Problem:</strong> Colors look different on various devices and brightness settings.</p>
       <p><strong>Solution:</strong></p>
       <ul>
@@ -159,13 +163,13 @@ export const blogPosts = [
         <li>Account for color profiles</li>
       </ul>
 
-      <h3>❌ Mistake 3: Poor Text Readability</h3>
+      <h3>Mistake 3: Poor Text Readability</h3>
       <p><strong>Problem:</strong> Fancy color combinations that sacrifice readability.</p>
       <p><strong>Solution:</strong></p>
       <ul>
         <li>Text should always have high contrast</li>
-        <li>Use dark text on light backgrounds</li>
-        <li>Avoid pure black on pure white</li>
+        <li>Use dark text on light backgrounds (or vice versa)</li>
+        <li>Avoid pure black on pure white (too harsh)</li>
         <li>Test with real content, not Lorem Ipsum</li>
       </ul>
 
@@ -175,7 +179,7 @@ export const blogPosts = [
         <li><a href="/">Color Picker</a> - Find perfect colors visually</li>
         <li><a href="/pages/palettes">Palette Generator</a> - Create harmonious combinations</li>
         <li><a href="/pages/image-color">Image Extractor</a> - Extract colors from photos</li>
-        <li><a href="/pages/gradients">Gradient Maker</a> - Design beautiful gradients</li>
+        <li><a href="/pages/gradients'">Gradient Maker</a> - Design beautiful gradients</li>
       </ul>
 
       
@@ -184,6 +188,12 @@ export const blogPosts = [
 
       <p><strong>Q: How many colors should I use on my website?</strong></p>
       <p>A: Stick to 3-5 colors: one primary, one or two secondary, and neutrals. More than this creates visual confusion.</p>
+
+      <p><strong>Q: What's the best color for a CTA button?</strong></p>
+      <p>A: Orange and red typically convert best, but it depends on your overall color scheme. The CTA should contrast strongly with the background.</p>
+
+      <p><strong>Q: Should my website have a dark mode?</strong></p>
+      <p>A: If your audience includes developers, designers, or people who use your site at night, yes. Otherwise, it's optional but increasingly expected.</p>
 
       <p><strong>Q: How do I choose colors for my brand?</strong></p>
       <p>A: Start with your brand personality and values, then use color psychology to find colors that express those qualities. Test with your target audience.</p>
@@ -204,14 +214,15 @@ export const blogPosts = [
   readTime: "12 min read",
   featured: true,
 },
-  
+
   {
+
     id: 2,
     slug: "extract-color-from-images",
-    title: "🎨 Extract Color Palettes from Photos - Complete Guide 2025",
+    title: "Extract Color Palettes from Photos - Complete Guide 2025",
     image: "/images/blog/nature.jpg",
     description:
-      "I will guide you how to extract different colors from images using colorkits online tool. Which is very helpful and very effective for  website designer and developers.   ",
+      "Learn how to extract different colors from images using colorkits online tool. This is helpful and very effective for  website designer and developers.   ",
     content: `
     <div class="blog-content">
       <p class="lead">Color extraction from images and giving different color shades it is done by using the process of identifying the most prominent colors from an image. </p>
@@ -237,7 +248,7 @@ This is very helpful for developers and designers who develop the websites. Whic
       <h2>How Does It Work? Let, understand the algorithms</h2>
       <p>
        1.Let understand the K-mean  clustering algorithm is unsupervised learning algorithm method that partitions unlabeled data into a pre-defined number of groups, or clusters (k).
-      Its follows unsupervised learning which is unlabeled data. Which collect the similar type of particals from randomly selected partterns .
+      It follows unsupervised learning which is unlabeled data. Which collect the similar type of particles from randomly selected partterns .
 
 2.Click to browse or drag and drop your image here which supports JPG, PNG, GIF, WebP.
 </p>
@@ -247,21 +258,21 @@ This is very helpful for developers and designers who develop the websites. Whic
       <h2>Use Cases</h2>
       <ul>
         <li>Create the different type of color shades from an image. </li>
-        <li>Its supports JPG, PNG, GIF, WebP.</li>
+        <li>It supports JPG, PNG, GIF, WebP.</li>
         <li>Extract colors for  CSS , Tailwind, or design systems which help designers to develop webpages.</li>
       </ul>
 
       <h2>Try It on ColorKits!</h2>
       <p>Upload an image to our <a href="/pages/image-color">Color Extractor</a> and get a palette of dominant colors. You can copy HEX codes,  css code , preview swatches, and even generate Tailwind-compatible classes.</p>
 
-      <h2>Pro Tips</h2>
-      <p>✅ Use high-resolution images for better accuracy and results</p>
-      <p>✅ Avoid those images which are heavy filtered or overlayed</p>
-      <p>✅ Combine extracted palettes with our <a href="/pages/palettes">Palette Generator</a> for even more creative control</p>
+      <h2>Some Tips</h2>
+      <p>Use high-resolution images for better accuracy and results</p>
+      <p>Avoid those images which are heavy filtered or overlayed</p>
+      <p>Combine extracted palettes with our <a href="/pages/palettes">Palette Generator</a> for even more creative control</p>
     </div>
   `,
     author: "Pankaj Kori",
-    date: "2025-10-22",
+    date: "2025-10-25",
     category: "Tutorials",
     tags: ["color-extraction", "palette", "design-tools", "shades" , "javascript"],
     readTime: "10 min read",
@@ -275,7 +286,7 @@ This is very helpful for developers and designers who develop the websites. Whic
   description: "Before using the different color shades you need to know about color theory in web design.",
   content: `
     <div class="blog-content">
-      <p class="lead">I Will guide you how to master the art of color in web design. And how to use tools and apply colors from different palettes to get best color combination.</p>
+      <p class="lead">I will guide you how to master the art of color in web design. And how to use tools and apply colors from different palettes to get best color combination.</p>
 
       <h2>Understanding Different Color Shades</h2>
       <p>Color theory is the fundamental part of web design. which help you to understand how colors work together and make the variety of gradient colors.</p>
@@ -313,7 +324,6 @@ This is very helpful for developers and designers who develop the websites. Whic
       <ol>
         <li>Start with your brand topic</li>
         <li>Choose a primary color for your brand</li>
-        <li>Select 4-5 complementary colors for varieties </li>
         <li>Add neutral colors like (black, whites , red) for balance</li>
        
       </ol>
@@ -334,7 +344,7 @@ This is very helpful for developers and designers who develop the websites. Whic
     </div>
   `,
   author: "Pankaj Kori",
-  date: "2025-10-20",
+  date: "2025-10-27",
   category: "Tutorials",
   tags: ["color-theory", "web-design", "palettes", "shades" ,"guide"],
   readTime: "15 min read",
@@ -350,8 +360,8 @@ This is very helpful for developers and designers who develop the websites. Whic
   content: `
     <div class="blog-content">
       <p class="lead">
-       When I started designing my very first website , then i had faced a lot of problem while selecting the color combination for for my website.
-        Then I searched alot after that i got an idea that i can make a colorkits website which can help me to choose the best color shades , and color palettes for desgining the website .
+       When I started designing my very first website , then I faced a lot of problem while selecting the color combination for for my website.
+        Then I searched extensively after that I decided that I can make a colorkits website which can help me to choose the best color shades , and color palettes for desgining the website .
         so ,today i will guide you how it is actually works and optimised the performance  and saves your time in searching .
       </p>
 
@@ -415,7 +425,7 @@ This is very helpful for developers and designers who develop the websites. Whic
       </table>
 
 
-      <h2>How to Use ColorKits Contrast Checker 🛠️</h2>
+      <h2>How to Use ColorKits Contrast Checker</h2>
       <p>
        i designed the website which help you to guide seamless properties to use the color contrast . Here you need to follow these 3 steps for better results:
       </p>
@@ -525,7 +535,7 @@ This is very helpful for developers and designers who develop the websites. Whic
 
   `,
   author: "Pankaj Kori",
-  date: "2025-10-20",
+  date: "2025-10-26",
   category: "Tutorials",
   tags: ["contrast", "accessibility", "wcag", "web-design", "a11y", "tools"],
   readTime: "10 min read",
