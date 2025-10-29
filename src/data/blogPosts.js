@@ -71,13 +71,13 @@ export const blogPosts = [
           <div class="color-temperature-examples" style="margin: 30px 0;">
         <div style="margin-bottom: 20px;">
           <h4 style="margin-bottom: 10px;">Warm Color Palette Example</h4>
-          <img src="/images/blog/warm-colors.png" alt="Warm colors palette showing red, orange, and yellow tones" style="width: 100%; max-width: 800px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);" />
+          <img src="/images/blog/warm-color.png" alt="Warm colors palette showing red, orange, and yellow tones" style="width: 100%; max-width: 800px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);" />
           <p style="margin-top: 10px; font-size: 14px; color: #666;">Warm colors create energy and excitement, perfect for action-oriented designs</p>
         </div>
 
         <div style="margin-bottom: 20px;">
           <h4 style="margin-bottom: 10px;">Cool Color Palette Example</h4>
-          <img src="/images/blog/cool-colors.png" alt="Cool colors palette showing blue, green, and purple tones" style="width: 100%; max-width: 800px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);" />
+          <img src="/images/blog/cool-color.png" alt="Cool colors palette showing blue, green, and purple tones" style="width: 100%; max-width: 800px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);" />
           <p style="margin-top: 10px; font-size: 14px; color: #666;">Cool colors evoke calmness and trust, ideal for professional applications</p>
         </div>
       </div>
