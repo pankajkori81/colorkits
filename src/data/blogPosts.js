@@ -1,6 +1,215 @@
 export const blogPosts = [
+
+    {
+  id: 1,
+  slug: "ultimate-color-theory-for-web-designers",
+  title: "🎨 Ultimate Color Theory for Web Designers - Complete Guide 2025",
+  image: "/images/blog/color-wheel.jpg",
+  description: "Master color theory fundamentals, psychology, and practical workflows to create stunning web designs. Learn how to choose perfect color combinations and avoid common mistakes.",
+  content: `
+    <div class="blog-content">
+      <p class="lead">Color is one of the most powerful tools in web design. It influences user emotions, guides actions, and defines brand identity. This comprehensive guide covers everything from color fundamentals to advanced techniques used by professional designers.</p>
+
+      <h2>What You'll Learn</h2>
+      <ul>
+        <li>The science behind color and how our eyes perceive it</li>
+        <li>Color psychology and emotional impact on users</li>
+        <li>Practical color harmony rules for web design</li>
+        <li>Best tools and workflows for choosing colors</li>
+        <li>Common mistakes and how to avoid them</li>
+      </ul>
+
+      <h2>Part 1: Understanding Color Fundamentals</h2>
+      
+      <h3>What Is Color?</h3>
+      <p>Color is light reflected at different wavelengths that our eyes perceive. For web designers, colors are represented digitally in several formats:</p>
+      <ul>
+        <li><strong>HEX codes</strong> (e.g., <code>#FFF255</code>) - Most common for CSS</li>
+        <li><strong>RGB values</strong> (e.g., <code>rgb(255, 80, 11)</code>) - Red, Green, Blue channels</li>
+        <li><strong>HSL values</strong> (e.g., <code>hsl(9, 100%, 60%)</code>) - Hue, Saturation, Lightness</li>
+        <li><strong>RGBA/HSLA</strong> - Same as above but with alpha transparency</li>
+      </ul>
+
+      <h3>The Color Wheel</h3>
+      <p>The color wheel organizes colors in a circle based on their hue relationships:</p>
+      
+      <p><strong>Primary Colors:</strong></p>
+      <ul>
+        <li>Red, Yellow, Blue (traditional color theory)</li>
+        <li>Red, Green, Blue (light-based/digital color)</li>
+      </ul>
+
+      <p><strong>Secondary Colors:</strong></p>
+      <p>Created by mixing two primary colors:</p>
+      <ul>
+        <li>Orange (Red + Yellow)</li>
+        <li>Green (Yellow + Blue)</li>
+        <li>Purple (Red + Blue)</li>
+      </ul>
+
+      <p><strong>Tertiary Colors:</strong></p>
+      <p>Created by mixing primary and secondary colors: Red-orange, Yellow-orange, Yellow-green, Blue-green, Blue-purple, Red-purple</p>
+
+      <h3>Warm vs. Cool Colors</h3>
+      
+      <p><strong>Warm Colors (Red, Orange, Yellow):</strong></p>
+      <ul>
+        <li>Energetic and inviting</li>
+        <li>Advance visually (appear closer to the viewer)</li>
+        <li>Increase perceived temperature</li>
+      </ul>
+
+      <p><strong>Cool Colors (Blue, Green, Purple):</strong></p>
+      <ul>
+        <li>Calming and professional</li>
+        <li>Recede visually (appear farther away)</li>
+        <li>Decrease perceived temperature</li>
+        <li>Best for: Tech companies, healthcare, trustworthy brands</li>
+      </ul>
+
+
+          <div class="color-temperature-examples" style="margin: 30px 0;">
+        <div style="margin-bottom: 20px;">
+          <h4 style="margin-bottom: 10px;">Warm Color Palette Example</h4>
+          <img src="/images/blog/warm-colors.png" alt="Warm colors palette showing red, orange, and yellow tones" style="width: 100%; max-width: 800px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);" />
+          <p style="margin-top: 10px; font-size: 14px; color: #666;">Warm colors create energy and excitement, perfect for action-oriented designs</p>
+        </div>
+
+        <div style="margin-bottom: 20px;">
+          <h4 style="margin-bottom: 10px;">Cool Color Palette Example</h4>
+          <img src="/images/blog/cool-colors.png" alt="Cool colors palette showing blue, green, and purple tones" style="width: 100%; max-width: 800px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);" />
+          <p style="margin-top: 10px; font-size: 14px; color: #666;">Cool colors evoke calmness and trust, ideal for professional applications</p>
+        </div>
+      </div>
+
+
+
+      <h2>Part 2: Color Psychology in Web Design</h2>
+      <p>Understanding color psychology helps you choose colors that align with your brand message and desired user actions. Here's what different colors communicate:</p>
+
+      <div class="color-psychology">
+        <p><strong>🟤 Dark Brown:</strong> Stability, reliability, warmth. Often used in natural or vintage designs.</p>
+        
+        <p><strong>🟢 Bright Green:</strong> Freshness, growth, eco-friendliness. Signals health and vitality.</p>
+        
+        <p><strong>🟠 Bright Orange:</strong> Energy, enthusiasm, creativity. Great for calls to action and youth-focused brands.</p>
+        
+        <p><strong>💚 Neon Green:</strong> Strong visibility and modernity. Popular in tech, gaming, or nightlife themes.</p>
+        
+        <p><strong>💗 Bright Pink:</strong> Playfulness, emotion, youthfulness. Popular in fashion, beauty, and lifestyle brands.</p>
+      </div>
+
+      <h2>Part 3: Practical Color Workflows</h2>
+      
+      <h3>Starting from Scratch</h3>
+      
+      <p><strong>Step 1: Define Your Brand Personality</strong></p>
+      <p>Ask yourself: Is your brand...</p>
+      <ul>
+        <li>Professional or playful?</li>
+        <li>Luxurious or affordable?</li>
+        <li>Bold or subtle?</li>
+        <li>Traditional or modern?</li>
+      </ul>
+
+      <p><strong>Step 2: Choose Your Primary Color</strong></p>
+      <ul>
+        <li>Base it on color psychology</li>
+        <li>Reflect your brand values</li>
+        <li>Differentiate from competitors</li>
+      </ul>
+
+      <p><strong>Step 3: Build Your Palette</strong></p>
+      <p>Create variations including:</p>
+      <ul>
+        <li>3-5 shades of your primary color</li>
+        <li>1-2 complementary or accent colors</li>
+        <li>Neutral colors (grays, white, black)</li>
+        <li>Success, warning, and error colors for UI states</li>
+      </ul>
+
+      <p><strong>Step 4: Test in Context</strong></p>
+      <ul>
+        <li>Apply to actual designs</li>
+        <li>Check on different screens</li>
+        <li>Test with real content</li>
+        <li>Verify accessibility standards</li>
+      </ul>
+
+      <h2>Part 4: Common Color Mistakes to Avoid</h2>
+
+      <h3>❌ Mistake 1: Too Many Colors</h3>
+      <p><strong>Problem:</strong> Using 6+ colors creates visual chaos and confusion.</p>
+      <p><strong>Solution:</strong> Stick to 3-5 colors maximum:</p>
+      <ul>
+        <li>1 primary color</li>
+        <li>1-2 secondary colors</li>
+        <li>1-2 neutral colors</li>
+        <li>UI state colors (success, error, warning)</li>
+      </ul>
+
+      <h3>❌ Mistake 2: Not Testing on Different Screens</h3>
+      <p><strong>Problem:</strong> Colors look different on various devices and brightness settings.</p>
+      <p><strong>Solution:</strong></p>
+      <ul>
+        <li>Test on multiple monitors</li>
+        <li>Check on mobile devices</li>
+        <li>Consider different brightness settings</li>
+        <li>Account for color profiles</li>
+      </ul>
+
+      <h3>❌ Mistake 3: Poor Text Readability</h3>
+      <p><strong>Problem:</strong> Fancy color combinations that sacrifice readability.</p>
+      <p><strong>Solution:</strong></p>
+      <ul>
+        <li>Text should always have high contrast</li>
+        <li>Use dark text on light backgrounds (or vice versa)</li>
+        <li>Avoid pure black on pure white (too harsh)</li>
+        <li>Test with real content, not Lorem Ipsum</li>
+      </ul>
+
+
+      <h2>Tools you should explore to get the best color combination</h2>
+      <ul>
+        <li><a href="/">Color Picker</a> - Find perfect colors visually</li>
+        <li><a href="/pages/palettes">Palette Generator</a> - Create harmonious combinations</li>
+        <li><a href="/pages/image-color">Image Extractor</a> - Extract colors from photos</li>
+        <li><a href="/pages/gradients'">Gradient Maker</a> - Design beautiful gradients</li>
+      </ul>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <p><strong>Q: How many colors should I use on my website?</strong></p>
+      <p>A: Stick to 3-5 colors: one primary, one or two secondary, and neutrals. More than this creates visual confusion.</p>
+
+      <p><strong>Q: What's the best color for a CTA button?</strong></p>
+      <p>A: Orange and red typically convert best, but it depends on your overall color scheme. The CTA should contrast strongly with the background.</p>
+
+      <p><strong>Q: Should my website have a dark mode?</strong></p>
+      <p>A: If your audience includes developers, designers, or people who use your site at night, yes. Otherwise, it's optional but increasingly expected.</p>
+
+      <p><strong>Q: How do I choose colors for my brand?</strong></p>
+      <p>A: Start with your brand personality and values, then use color psychology to find colors that express those qualities. Test with your target audience.</p>
+
+      <p><strong>Q: Can I use black and white only?</strong></p>
+      <p>A: Yes! Monochrome designs can be sophisticated and timeless. Add one accent color for emphasis if needed.</p>
+
+      <h2>Try ColorKits Tools!</h2>
+      <p>Ready to put color theory into practice? Use our <a href="/pages/palette-generator">Palette Generator</a> to create harmonious color schemes, or extract colors from images with our <a href="/pages/image-color">Color Extractor</a> tool.</p>
+
+    
+    </div>
+  `,
+  author: "Pankaj Kori",
+  date: "2025-10-29",
+  category: "Tutorials",
+  tags: ["color-theory", "web-design", "color-psychology", "design-fundamentals", "color-palette"],
+  readTime: "12 min read",
+  featured: true,
+},
+  
   {
-    id: 1,
+    id: 2,
     slug: "extract-color-from-images",
     title: "🎨 Extract Color Palettes from Photos - Complete Guide 2025",
     image: "/images/blog/nature.jpg",
@@ -62,7 +271,7 @@ This is very helpful for developers and designers who develop the websites. Whic
     featured: true,
   },
   {
-  id: 2,
+  id: 3,
   slug: "Amazing-color-palettes-2025",
   title: "10+ Best Trending Color Palettes for Web Designers 2025",
   image: "/images/blog/color-shades.jpg",
@@ -136,7 +345,7 @@ This is very helpful for developers and designers who develop the websites. Whic
 },
 
   {
-  id: 3,
+  id: 4,
   slug: "color-contrast-checker-tools",
   title: "Use Different Tools To Get The Best color Combination - Complete Guide 2025",
   image: "/images/blog/color-contrast.png",
