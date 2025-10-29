@@ -1,10 +1,10 @@
 export const blogPosts = [
 
-    {
+  {
   id: 1,
   slug: "ultimate-color-theory-for-web-designers",
   title: "🎨 Ultimate Color Theory for Web Designers - Complete Guide 2025",
-  image: "/images/blog/color-wheel.jpg",
+  image: "/images/blog/color-mixer-tool.png",
   description: "Master color theory fundamentals, psychology, and practical workflows to create stunning web designs. Learn how to choose perfect color combinations and avoid common mistakes.",
   content: `
     <div class="blog-content">
@@ -83,10 +83,6 @@ export const blogPosts = [
       </div>
 
 
-
-      <h2>Part 2: Color Psychology in Web Design</h2>
-      <p>Understanding color psychology helps you choose colors that align with your brand message and desired user actions. Here's what different colors communicate:</p>
-
       <div class="color-psychology">
         <p><strong>🟤 Dark Brown:</strong> Stability, reliability, warmth. Often used in natural or vintage designs.</p>
         
@@ -99,6 +95,15 @@ export const blogPosts = [
         <p><strong>💗 Bright Pink:</strong> Playfulness, emotion, youthfulness. Popular in fashion, beauty, and lifestyle brands.</p>
       </div>
 
+      <div class="color-tool-example" style="margin: 30px 0;">
+        <h3 style="margin-bottom: 15px;">See Color Theory in Action</h3>
+        <img src="/images/blog/colorkits-hero.png" alt="ColorKits color picker tool interface showing palette creation" style="width: 100%; max-width: 1000px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.15); border: 1px solid #e0e0e0;" />
+        <p style="margin-top: 15px; font-size: 14px; color: #666; font-style: italic;">ColorKits makes it easy to pick, create, and copy perfect color palettes with instant HEX, RGB, and HSL codes - no more guessing!</p>
+      </div>
+
+
+
+
       <h2>Part 3: Practical Color Workflows</h2>
       
       <h3>Starting from Scratch</h3>
@@ -107,8 +112,6 @@ export const blogPosts = [
       <p>Ask yourself: Is your brand...</p>
       <ul>
         <li>Professional or playful?</li>
-        <li>Luxurious or affordable?</li>
-        <li>Bold or subtle?</li>
         <li>Traditional or modern?</li>
       </ul>
 
@@ -123,7 +126,6 @@ export const blogPosts = [
       <p>Create variations including:</p>
       <ul>
         <li>3-5 shades of your primary color</li>
-        <li>1-2 complementary or accent colors</li>
         <li>Neutral colors (grays, white, black)</li>
         <li>Success, warning, and error colors for UI states</li>
       </ul>
@@ -133,7 +135,6 @@ export const blogPosts = [
         <li>Apply to actual designs</li>
         <li>Check on different screens</li>
         <li>Test with real content</li>
-        <li>Verify accessibility standards</li>
       </ul>
 
       <h2>Part 4: Common Color Mistakes to Avoid</h2>
@@ -163,8 +164,8 @@ export const blogPosts = [
       <p><strong>Solution:</strong></p>
       <ul>
         <li>Text should always have high contrast</li>
-        <li>Use dark text on light backgrounds (or vice versa)</li>
-        <li>Avoid pure black on pure white (too harsh)</li>
+        <li>Use dark text on light backgrounds</li>
+        <li>Avoid pure black on pure white</li>
         <li>Test with real content, not Lorem Ipsum</li>
       </ul>
 
@@ -177,16 +178,12 @@ export const blogPosts = [
         <li><a href="/pages/gradients'">Gradient Maker</a> - Design beautiful gradients</li>
       </ul>
 
+      
+
       <h2>Frequently Asked Questions</h2>
 
       <p><strong>Q: How many colors should I use on my website?</strong></p>
       <p>A: Stick to 3-5 colors: one primary, one or two secondary, and neutrals. More than this creates visual confusion.</p>
-
-      <p><strong>Q: What's the best color for a CTA button?</strong></p>
-      <p>A: Orange and red typically convert best, but it depends on your overall color scheme. The CTA should contrast strongly with the background.</p>
-
-      <p><strong>Q: Should my website have a dark mode?</strong></p>
-      <p>A: If your audience includes developers, designers, or people who use your site at night, yes. Otherwise, it's optional but increasingly expected.</p>
 
       <p><strong>Q: How do I choose colors for my brand?</strong></p>
       <p>A: Start with your brand personality and values, then use color psychology to find colors that express those qualities. Test with your target audience.</p>
@@ -195,7 +192,7 @@ export const blogPosts = [
       <p>A: Yes! Monochrome designs can be sophisticated and timeless. Add one accent color for emphasis if needed.</p>
 
       <h2>Try ColorKits Tools!</h2>
-      <p>Ready to put color theory into practice? Use our <a href="/pages/palette-generator">Palette Generator</a> to create harmonious color schemes, or extract colors from images with our <a href="/pages/image-color">Color Extractor</a> tool.</p>
+      <p>Ready to put color theory into practice? Use our <a href="/pages/palettes">Palette Generator</a> to create harmonious color schemes, or extract colors from images with our <a href="/pages/image-color">Color Extractor</a> tool.</p>
 
     
     </div>
