@@ -5,6 +5,10 @@ import { Calendar, Clock, User, ArrowLeft, Share2 } from 'lucide-react';
 import { blogPosts } from '../data/blogPosts';
 import SEO from '../components/SEO';
 
+import AdSpace from '../components/AdSpace';
+
+import { getAdKey } from '../config/ads';
+
 const BlogPost = ({ darkMode }) => {
   const { slug } = useParams();
   const post = blogPosts.find(p => p.slug === slug);
@@ -129,6 +133,35 @@ const BlogPost = ({ darkMode }) => {
           </div>
         </div>
       </article>
+
+
+      
+               {/* Top banner - desktop */}
+        <div className="hidden lg:block">
+          <div className={`${cardClass} rounded-2xl border p-4 shadow-xl`}>
+            <AdSpace 
+              size="728x90" 
+              darkMode={darkMode}
+              adKey={getAdKey('728x90')}
+
+            />
+          </div>
+        </div>
+
+
+        {/* Top Banner - Mobile/Tablet */}
+
+         <div className="block lg:hidden">
+          <div className={`${cardClass} rounded-2xl border p-4 shadow-xl`}>
+            <AdSpace 
+              size="300x250" 
+              type="medium"
+              darkMode={darkMode}
+              adKey={getAdKey('300x250')}
+            
+            />
+          </div>
+        </div>  
 
       {/* Related Posts */}
       <div className="mt-12">
