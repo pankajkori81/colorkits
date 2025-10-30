@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react';
 import { Copy, Check, ArrowRight, RefreshCw } from 'lucide-react';
 import AdSpace from '../components/AdSpace';
 import SEO from '../components/SEO';
+import { getAdKey } from '../config/ads';
+
 
 
 
@@ -102,9 +104,33 @@ const RgbToHex = ({ darkMode }) => {
         </p>
       </div>
 
-        <div className={`${cardClass} rounded-2xl border p-6 shadow-xl text-center transition-all duration-500 hover:shadow-2xl`}>
-            <AdSpace size="728x90" darkMode={darkMode} />
-          </div>
+       
+   {/*  banner - desktop */}
+              <div className="hidden lg:block">
+                <div className={`${cardClass} rounded-2xl border p-4 shadow-xl`}>
+                  <AdSpace 
+                    size="728x90" 
+                    darkMode={darkMode}
+                    adKey={getAdKey('728x90')}
+      
+                  />
+                </div>
+              </div>
+      
+      
+              {/* Banner - Mobile/Tablet */}
+      
+               <div className="block lg:hidden">
+                <div className={`${cardClass} rounded-2xl border p-4 shadow-xl`}>
+                  <AdSpace 
+                    size="300x250" 
+                    type="medium"
+                    darkMode={darkMode}
+                    adKey={getAdKey('300x250')}
+                  
+                  />
+                </div>
+              </div>  
 
       {/* Color Preview Bar */}
       <div className="flex items-center gap-4">
@@ -311,9 +337,33 @@ const RgbToHex = ({ darkMode }) => {
         </div>
       </div>
 
-        <div className={`${cardClass} rounded-2xl border p-6 shadow-xl text-center transition-all duration-500 hover:shadow-2xl`}>
-            <AdSpace size="728x90" darkMode={darkMode} />
-          </div>
+
+   {/*  banner - desktop */}
+              <div className="hidden lg:block">
+                <div className={`${cardClass} rounded-2xl border p-4 shadow-xl`}>
+                  <AdSpace 
+                    size="728x90" 
+                    darkMode={darkMode}
+                    adKey={getAdKey('728x90')}
+      
+                  />
+                </div>
+              </div>
+      
+      
+              {/* Banner - Mobile/Tablet */}
+      
+               <div className="block lg:hidden">
+                <div className={`${cardClass} rounded-2xl border p-4 shadow-xl`}>
+                  <AdSpace 
+                    size="300x250" 
+                    type="medium"
+                    darkMode={darkMode}
+                    adKey={getAdKey('300x250')}
+                  
+                  />
+                </div>
+              </div>  
 
       {/* Info Card */}
       <div className={`${cardClass} rounded-2xl border p-6 shadow-lg`}>
