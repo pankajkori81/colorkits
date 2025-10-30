@@ -4,6 +4,7 @@ import React, { useState } from 'react';
 import { Layers, Plus, Trash2, Copy, Check, Eye } from 'lucide-react';
 import AdSpace from '../components/AdSpace';
 import SEO from '../components/SEO';
+import { getAdKey } from '../config/ads';
 
 
 const Gradients = ({ darkMode }) => {
@@ -65,6 +66,36 @@ const Gradients = ({ darkMode }) => {
 
   </p>
 </div>
+
+      
+    {/*  banner - desktop */}
+        <div className="hidden lg:block">
+          <div className={`${cardClass} rounded-2xl border p-4 shadow-xl`}>
+            <AdSpace 
+              size="728x90" 
+              darkMode={darkMode}
+              adKey={getAdKey('728x90')}
+
+            />
+          </div>
+        </div>
+
+
+        {/*  Banner - Mobile/Tablet */}
+
+         <div className="block lg:hidden">
+          <div className={`${cardClass} rounded-2xl border p-4 shadow-xl`}>
+            <AdSpace 
+              size="300x250" 
+              type="medium"
+              darkMode={darkMode}
+              adKey={getAdKey('300x250')}
+            
+            />
+          </div>
+        </div>
+
+      
       {/* Gradient Maker Card */}
       <div className={`${cardClass} rounded-2xl border p-6 shadow-xl transition-all duration-500`}>
         <h2 className={`text-2xl font-bold ${textClass} mb-6 flex items-center`}>
@@ -159,18 +190,34 @@ const Gradients = ({ darkMode }) => {
         </div>
       </div>
 
-      {/* Ad Space */}
-      {/* <div className={`${cardClass} rounded-2xl border p-6 shadow-xl text-center transition-all duration-500 hover:shadow-2xl`}>
-        <div className={`${darkMode ? 'bg-gray-700' : 'bg-gradient-to-br from-green-100 to-blue-100'} rounded-xl p-8`}>
-          <Eye className="w-12 h-12 mx-auto mb-3 text-green-500 animate-pulse" />
-          <p className={`${textSecondaryClass} font-medium`}>Advertisement Space</p>
-          <p className={`${textSecondaryClass} text-sm`}>728 x 90</p>
-        </div>
-      </div> */}
+ 
+    {/* Bottom banner - desktop */}
+        <div className="hidden lg:block">
+          <div className={`${cardClass} rounded-2xl border p-4 shadow-xl`}>
+            <AdSpace 
+              size="728x90" 
+              darkMode={darkMode}
+              adKey={getAdKey('728x90')}
 
-  <div className={`${cardClass} rounded-2xl border p-6 shadow-xl text-center transition-all duration-500 hover:shadow-2xl`}>
-            <AdSpace size="728x90" darkMode={darkMode} />
+            />
           </div>
+        </div>
+
+
+        {/* Bottom Banner - Mobile/Tablet */}
+
+         <div className="block lg:hidden">
+          <div className={`${cardClass} rounded-2xl border p-4 shadow-xl`}>
+            <AdSpace 
+              size="300x250" 
+              type="medium"
+              darkMode={darkMode}
+              adKey={getAdKey('300x250')}
+            
+            />
+          </div>
+        </div>
+
 
     </div>
 
