@@ -5,6 +5,9 @@ import { Link } from 'react-router-dom';
 import { Clock, Calendar, User, Tag, Search } from 'lucide-react';
 import { blogPosts } from '../data/blogPosts';
 import SEO from '../components/SEO';
+import AdSpace from '../components/AdSpace';
+import { getAdKey } from "../config/ads";
+
 
 
 const Blog = ({ darkMode }) => {
@@ -85,6 +88,37 @@ const Blog = ({ darkMode }) => {
         </div>
       </div>
 
+
+
+      
+               {/*  banner - desktop */}
+        <div className="hidden lg:block">
+          <div className={`${cardClass} rounded-2xl border p-4 shadow-xl`}>
+            <AdSpace 
+              size="728x90" 
+              darkMode={darkMode}
+              adKey={getAdKey('728x90')}
+
+            />
+          </div>
+        </div>
+
+
+        {/*  Banner - Mobile/Tablet */}
+
+         <div className="block lg:hidden">
+          <div className={`${cardClass} rounded-2xl border p-4 shadow-xl`}>
+            <AdSpace 
+              size="300x250" 
+              type="medium"
+              darkMode={darkMode}
+              adKey={getAdKey('300x250')}
+            
+            />
+          </div>
+        </div>
+
+
       {/* Featured Posts */}
       {selectedCategory === 'All' && searchTerm === '' && featuredPosts.length > 0 && (
         <div>
@@ -140,6 +174,36 @@ const Blog = ({ darkMode }) => {
         </div>
       )}
 
+
+      
+               {/* Top banner - desktop */}
+        <div className="hidden lg:block">
+          <div className={`${cardClass} rounded-2xl border p-4 shadow-xl`}>
+            <AdSpace 
+              size="728x90" 
+              darkMode={darkMode}
+              adKey={getAdKey('728x90')}
+
+            />
+          </div>
+        </div>
+
+
+        {/* Top Banner - Mobile/Tablet */}
+
+         <div className="block lg:hidden">
+          <div className={`${cardClass} rounded-2xl border p-4 shadow-xl`}>
+            <AdSpace 
+              size="300x250" 
+              type="medium"
+              darkMode={darkMode}
+              adKey={getAdKey('300x250')}
+            
+            />
+          </div>
+        </div>
+
+
       {/* All Posts */}
       <div>
         <h2 className={`text-3xl font-bold ${textClass} mb-6`}>
@@ -158,7 +222,7 @@ const Blog = ({ darkMode }) => {
                 to={`/pages/blog/${post.slug}`}
                 className={`${cardClass} rounded-xl border p-6 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-[1.02] block group`}
               >
-                {/* Blog Image - FIXED */}
+             
                 {post.image ? (
                   <img 
                     src={post.image} 
