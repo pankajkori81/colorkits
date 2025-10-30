@@ -2,8 +2,8 @@ export const blogPosts = [
 
   {
   id: 1,
-  slug: "ultimate-color-theory-for-web-designers",
-  title: "Ultimate Color Theory for Web Designers - Complete Guide 2025",
+  slug: "color-theory-web-design",
+  title: "Color Theory for Web Design: Complete Guide 2025",
   image: "/images/blog/color-mixer-tool.png",
   description: "Master color theory fundamentals, psychology, and practical workflows to create stunning web designs. Learn how to choose perfect color combinations and avoid common mistakes.",
   content: `
@@ -14,7 +14,7 @@ export const blogPosts = [
       <ul>
         <li>The science behind color and how our eyes perceive it</li>
         <li>Color psychology and emotional impact on users</li>
-        <li>Practical color harmony rules for web design</li>
+        <li>Practical color harmony rules for color theory web design</li>
         <li>Best tools and workflows for choosing colors</li>
         <li>Common mistakes and how to avoid them</li>
       </ul>
@@ -189,6 +189,12 @@ export const blogPosts = [
       <p><strong>Q: How many colors should I use on my website?</strong></p>
       <p>A: Stick to 3-5 colors: one primary, one or two secondary, and neutrals. More than this creates visual confusion.</p>
 
+      <p><strong>Q: What's the best color for a CTA button?</strong></p>
+      <p>A: Orange and red typically convert best, but it depends on your overall color scheme. The CTA should contrast strongly with the background.</p>
+
+      <p><strong>Q: Should my website have a dark mode?</strong></p>
+      <p>A: If your audience includes developers, designers, or people who use your site at night, yes. Otherwise, it's optional but increasingly expected.</p>
+
       <p><strong>Q: How do I choose colors for my brand?</strong></p>
       <p>A: Start with your brand personality and values, then use color psychology to find colors that express those qualities. Test with your target audience.</p>
 
@@ -212,11 +218,11 @@ export const blogPosts = [
   {
 
     id: 2,
-    slug: "extract-color-from-images",
-    title: "Extract Color Palettes from Photos - Complete Guide 2025",
+    slug: "extract-colors-from-images",
+    title: "How to Extract Colors from Images (Free Tool 2025)",
     image: "/images/blog/nature.jpg",
     description:
-      "Learn how to extract different colors from images using colorkits online tool. This is helpful and very effective for  website designer and developers.   ",
+      "Learn how to extract different colors from images using colorkits online tool. This is helpful to extract colors from image and very effective for  website designer and developers.   ",
     content: `
     <div class="blog-content">
       <p class="lead">Color extraction from images and giving different color shades it is done by using the process of identifying the most prominent colors from an image. </p>
@@ -230,7 +236,7 @@ This is very helpful for developers and designers who develop the websites. Whic
  </p>
 
       <div class="color-example">
-        <img src="/images/blog/nature.jpg" alt="Colorful nature" style="width: 100%; border-radius: 12px; margin: 20px 0;" />
+        <img src="/images/blog/nature.jpg"  alt="Nature photo with extracted color palette showing dominant colors"   style="width: 100%; border-radius: 12px; margin: 20px 0;" />
         <p>Extracted palette:
        <code>#1E1E1E </code>, <code>#1E2828 </code>, <code>#283232 </code>,  <code>#1E1E28 </code> , <code>#28323C </code> , <code>#324646 </code> ,  <code>#283C3C </code> ,  <code>#1E3232 </code>  
         </p>
@@ -274,8 +280,8 @@ This is very helpful for developers and designers who develop the websites. Whic
   },
   {
   id: 3,
-  slug: "Amazing-color-palettes-2025",
-  title: "10+ Best Trending Color Palettes for Web Designers 2025",
+  slug: "best-color-palettes-2025",
+  title: "15 Best Color Palettes for Websites (2025 Trends)",
   image: "/images/blog/color-shades.jpg",
   description: "Before using the different color shades you need to know about color theory in web design.",
   content: `
@@ -347,8 +353,8 @@ This is very helpful for developers and designers who develop the websites. Whic
 
   {
   id: 4,
-  slug: "color-contrast-checker-tools",
-  title: "Use Different Tools To Get The Best color Combination - Complete Guide 2025",
+  slug: "color-contrast-checker",
+  title: "Color Contrast Checker Guide: WCAG Compliance 2025",
   image: "/images/blog/color-contrast.png",
   description: "I will guide you how to use different tools from the colorkits website.",
   content: `
@@ -380,7 +386,7 @@ This is very helpful for developers and designers who develop the websites. Whic
       </p>
 
       <div class="color-example">
-        <img src="/images/blog/contrast-ratio.png" alt="Contrast ratio explanation" style="width: 100%; border-radius: 12px; margin: 20px 0;" />
+        <img src="/images/blog/contrast-ratio.png" alt="Color contrast checker tool showing WCAG compliance results" style="width: 100%; border-radius: 12px; margin: 20px 0;" />
         <p style="text-align: center; font-style: italic; color: #6b7280;">Example showing a 4.51:1 contrast ratio between orange and white</p>
       </div>
 
