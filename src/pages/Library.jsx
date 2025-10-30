@@ -1,6 +1,10 @@
 import React, { useState } from 'react';
 import { Search, Copy, Check, Palette, ChevronDown, ChevronUp } from 'lucide-react';
 import SEO from '../components/SEO';
+import AdSpace from '../components/AdSpace';
+
+import { getAdKey } from '../config/ads';
+
 
 
 const Library = ({ darkMode }) => {
@@ -206,6 +210,35 @@ const Library = ({ darkMode }) => {
         </p>
       </div>
 
+
+             {/*  banner - desktop */}
+              <div className="hidden lg:block">
+                <div className={`${cardClass} rounded-2xl border p-4 shadow-xl`}>
+                  <AdSpace 
+                    size="728x90" 
+                    darkMode={darkMode}
+                    adKey={getAdKey('728x90')}
+      
+                  />
+                </div>
+              </div>
+      
+      
+              {/* Banner - Mobile/Tablet */}
+      
+               <div className="block lg:hidden">
+                <div className={`${cardClass} rounded-2xl border p-4 shadow-xl`}>
+                  <AdSpace 
+                    size="300x250" 
+                    type="medium"
+                    darkMode={darkMode}
+                    adKey={getAdKey('300x250')}
+                  
+                  />
+                </div>
+              </div>  
+
+      
       {/* Current Color Display (if selected) */}
       {selectedColor && (
         <div className={`${cardClass} rounded-2xl border p-6 shadow-xl`}>
@@ -347,6 +380,33 @@ const Library = ({ darkMode }) => {
           </div>
         )}
       </div>
+
+             {/*  banner - desktop */}
+              <div className="hidden lg:block">
+                <div className={`${cardClass} rounded-2xl border p-4 shadow-xl`}>
+                  <AdSpace 
+                    size="728x90" 
+                    darkMode={darkMode}
+                    adKey={getAdKey('728x90')}
+      
+                  />
+                </div>
+              </div>
+      
+      
+              {/* Banner - Mobile/Tablet */}
+      
+               <div className="block lg:hidden">
+                <div className={`${cardClass} rounded-2xl border p-4 shadow-xl`}>
+                  <AdSpace 
+                    size="300x250" 
+                    type="medium"
+                    darkMode={darkMode}
+                    adKey={getAdKey('300x250')}
+                  
+                  />
+                </div>
+              </div>  
 
       {/* Info Section */}
       <div className={`${cardClass} rounded-2xl border p-6 shadow-lg`}>
