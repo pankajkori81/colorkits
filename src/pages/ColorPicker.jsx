@@ -4,6 +4,8 @@ import { Copy, Check, Palette, Download, Plus, Trash2, Sparkles, Droplet, Grid3x
 import { hexToRgb, hexToHsl, hslToHex } from '../utils/colorUtils';
 import AdSpace from '../components/AdSpace';
 import SEO from '../components/SEO';
+import { getAdKey } from '../config/ads';
+
 
 
 const ColorPicker = ({ darkMode }) => {
@@ -313,9 +315,32 @@ const ColorPicker = ({ darkMode }) => {
         </div>
       </div>
 
-      {/* ============ EXISTING COLOR PICKER CONTENT ============ */}
-     
-
+        {/*  banner - desktop */}
+              <div className="hidden lg:block">
+                <div className={`${cardClass} rounded-2xl border p-4 shadow-xl`}>
+                  <AdSpace 
+                    size="728x90" 
+                    darkMode={darkMode}
+                    adKey={getAdKey('728x90')}
+      
+                  />
+                </div>
+              </div>
+      
+      
+              {/* Banner - Mobile/Tablet */}
+      
+               <div className="block lg:hidden">
+                <div className={`${cardClass} rounded-2xl border p-4 shadow-xl`}>
+                  <AdSpace 
+                    size="300x250" 
+                    type="medium"
+                    darkMode={darkMode}
+                    adKey={getAdKey('300x250')}
+                  
+                  />
+                </div>
+              </div>  
       <div className="grid md:grid-cols-2 gap-6">
         {/* Left Column - Color Picker */}
         <div className={`${cardClass} rounded-2xl border p-6 shadow-xl transform hover:scale-[1.01] transition-all duration-500`}>
@@ -498,14 +523,35 @@ const ColorPicker = ({ darkMode }) => {
         </div>
       </div>
 
-      {/* Large Ad Space */}
-      <div className={`${cardClass} rounded-2xl border p-6 shadow-xl text-center transition-all duration-500 hover:shadow-2xl`}>
-        <div className={`${darkMode ? 'bg-gray-700' : 'bg-gradient-to-br from-blue-100 to-cyan-100'} rounded-xl p-12`}>
-          <Layers className="w-16 h-16 mx-auto mb-4 text-blue-500 animate-bounce" />
-          <p className={`${textSecondaryClass} font-medium text-lg`}>Advertisement Space</p>
-          <p className={`${textSecondaryClass}`}>970 x 250</p>
-        </div>
-      </div>
+
+           {/*  banner - desktop */}
+              <div className="hidden lg:block">
+                <div className={`${cardClass} rounded-2xl border p-4 shadow-xl`}>
+                  <AdSpace 
+                    size="728x90" 
+                    darkMode={darkMode}
+                    adKey={getAdKey('728x90')}
+      
+                  />
+                </div>
+              </div>
+      
+      
+              {/* Banner - Mobile/Tablet */}
+      
+               <div className="block lg:hidden">
+                <div className={`${cardClass} rounded-2xl border p-4 shadow-xl`}>
+                  <AdSpace 
+                    size="300x250" 
+                    type="medium"
+                    darkMode={darkMode}
+                    adKey={getAdKey('300x250')}
+                  
+                  />
+                </div>
+              </div> 
+
+   
 
       {/* Current Palette */}
       {currentPalette.length > 0 && (
