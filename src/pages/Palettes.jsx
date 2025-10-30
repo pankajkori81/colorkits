@@ -3,6 +3,11 @@ import React, { useState } from 'react';
 import { Grid3x3, Sparkles, Download, Trash2, Palette, Layers } from 'lucide-react';
 import { generateRandomColor } from '../utils/colorUtils';
 import SEO from '../components/SEO';
+import AdSpace from '../components/AdSpace';
+import { getAdKey } from '../config/ads';
+
+
+
 const Palettes = ({ darkMode }) => {
   // ============ STATE ============
   const [currentPalette, setCurrentPalette] = useState([]);
@@ -70,6 +75,36 @@ const Palettes = ({ darkMode }) => {
    Whether you need monochromatic, complementary, or triadic colors, this tool generates them all. No design degree required.
   </p>
 </div>
+
+
+      
+   {/*  banner - desktop */}
+              <div className="hidden lg:block">
+                <div className={`${cardClass} rounded-2xl border p-4 shadow-xl`}>
+                  <AdSpace 
+                    size="728x90" 
+                    darkMode={darkMode}
+                    adKey={getAdKey('728x90')}
+      
+                  />
+                </div>
+              </div>
+      
+      
+              {/* Banner - Mobile/Tablet */}
+      
+               <div className="block lg:hidden">
+                <div className={`${cardClass} rounded-2xl border p-4 shadow-xl`}>
+                  <AdSpace 
+                    size="300x250" 
+                    type="medium"
+                    darkMode={darkMode}
+                    adKey={getAdKey('300x250')}
+                  
+                  />
+                </div>
+              </div>  
+      
       {/* Palette Generator Card */}
       <div className={`${cardClass} rounded-2xl border p-6 shadow-xl transition-all duration-500`}>
         <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 mb-6">
@@ -152,14 +187,33 @@ const Palettes = ({ darkMode }) => {
         </div>
       )}
 
-      {/* Ad Space */}
-      <div className={`${cardClass} rounded-2xl border p-6 shadow-xl text-center transition-all duration-500 hover:shadow-2xl`}>
-        <div className={`${darkMode ? 'bg-gray-700' : 'bg-gradient-to-br from-blue-100 to-purple-100'} rounded-xl p-12`}>
-          <Layers className="w-16 h-16 mx-auto mb-4 text-blue-500 animate-pulse" />
-          <p className={`${textSecondaryClass} font-medium text-lg`}>Advertisement Space</p>
-          <p className={`${textSecondaryClass}`}>970 x 250</p>
-        </div>
-      </div>
+   
+   {/*  banner - desktop */}
+              <div className="hidden lg:block">
+                <div className={`${cardClass} rounded-2xl border p-4 shadow-xl`}>
+                  <AdSpace 
+                    size="728x90" 
+                    darkMode={darkMode}
+                    adKey={getAdKey('728x90')}
+      
+                  />
+                </div>
+              </div>
+      
+      
+              {/* Banner - Mobile/Tablet */}
+      
+               <div className="block lg:hidden">
+                <div className={`${cardClass} rounded-2xl border p-4 shadow-xl`}>
+                  <AdSpace 
+                    size="300x250" 
+                    type="medium"
+                    darkMode={darkMode}
+                    adKey={getAdKey('300x250')}
+                  
+                  />
+                </div>
+              </div>  
     </div>
 
        </>
