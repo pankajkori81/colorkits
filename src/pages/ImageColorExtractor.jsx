@@ -3,6 +3,8 @@ import React, { useState, useRef } from 'react';
 import { Upload, Image, Download, Copy, Check, X, Palette , Layers } from 'lucide-react';
 import AdSpace from '../components/AdSpace';
 import SEO from '../components/SEO';
+import { getAdKey } from '../config/ads';
+
 
 
 // Utility function: Convert RGB to HEX
@@ -142,6 +144,34 @@ const ImageColorExtractor = ({ darkMode }) => {
           <p className={`text-md ${textSecondaryClass}`}>Upload an image, get a complete color palette with codes. Perfect when you want your design to match a specific photo or brand asset.</p>
         </div>
 
+
+               {/*  banner - desktop */}
+              <div className="hidden lg:block">
+                <div className={`${cardClass} rounded-2xl border p-4 shadow-xl`}>
+                  <AdSpace 
+                    size="728x90" 
+                    darkMode={darkMode}
+                    adKey={getAdKey('728x90')}
+      
+                  />
+                </div>
+              </div>
+      
+      
+              {/* Banner - Mobile/Tablet */}
+      
+               <div className="block lg:hidden">
+                <div className={`${cardClass} rounded-2xl border p-4 shadow-xl`}>
+                  <AdSpace 
+                    size="300x250" 
+                    type="medium"
+                    darkMode={darkMode}
+                    adKey={getAdKey('300x250')}
+                  
+                  />
+                </div>
+              </div>  
+
         {!image ? (
           <div className={`${cardClass} rounded-2xl border-2 border-dashed p-12 shadow-xl text-center cursor-pointer hover:border-purple-500 transition-all duration-300`}
             onClick={() => fileInputRef.current?.click()} onDragOver={handleDragOver} onDrop={handleDrop}>
@@ -246,10 +276,32 @@ const ImageColorExtractor = ({ darkMode }) => {
 
 
 
-       {/* AdSpace */}
-     <div className={`${cardClass} rounded-2xl border p-6 shadow-xl text-center transition-all duration-500 hover:shadow-2xl`}>
-            <AdSpace size="728x90" darkMode={darkMode} />
-          </div>
+       {/*  banner - desktop */}
+              <div className="hidden lg:block">
+                <div className={`${cardClass} rounded-2xl border p-4 shadow-xl`}>
+                  <AdSpace 
+                    size="728x90" 
+                    darkMode={darkMode}
+                    adKey={getAdKey('728x90')}
+      
+                  />
+                </div>
+              </div>
+      
+      
+              {/* Banner - Mobile/Tablet */}
+      
+               <div className="block lg:hidden">
+                <div className={`${cardClass} rounded-2xl border p-4 shadow-xl`}>
+                  <AdSpace 
+                    size="300x250" 
+                    type="medium"
+                    darkMode={darkMode}
+                    adKey={getAdKey('300x250')}
+                  
+                  />
+                </div>
+              </div>  
 
 
         <div className={`${cardClass} rounded-2xl border p-8 shadow-xl`}>
