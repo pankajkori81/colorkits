@@ -151,9 +151,7 @@ const Contact = ({ darkMode }) => {
         </div>
       </div>
 
-      <div className={`${cardClass} rounded-2xl border p-6 shadow-xl text-center transition-all duration-500 hover:shadow-2xl`}>
-        <AdSpace size="728x90" darkMode={darkMode} />
-      </div>
+   
 
       {/*  banner - desktop */}
                   <div className="hidden lg:block">
