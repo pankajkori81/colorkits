@@ -43,8 +43,10 @@ const AdSpace = ({ size = "728x90", type = "default", darkMode = false, adKey = 
         // Create invoke script to load the actual ad
         const invokeScript = document.createElement('script');
         invokeScript.type = 'text/javascript';
-        invokeScript.src = `//www.highperformanceformat.com/${adKey}/invoke.js`;
+  
+        invokeScript.src = `//stopperscared.com/${adKey}/invoke.js`;
         invokeScript.async = true;
+
         
         invokeScript.onload = () => {
           console.log('✅ Adsterra ad loaded successfully');
