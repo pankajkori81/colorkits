@@ -23,6 +23,8 @@ import CookieConsent from './components/CookieConsent';
 import FAQ from './support/FAQ';
 import NotFound from './pages/NotFound';
 
+import PopunderAd from "./components/PopunderAd";
+
 
 function App() {
   const [darkMode, setDarkMode] = useState(false);
@@ -31,6 +33,9 @@ function App() {
 
   return (
     <div className={`min-h-screen ${bgClass} transition-all duration-700 ease-in-out`}>
+
+       <PopunderAd/>
+      
       <Header darkMode={darkMode} setDarkMode={setDarkMode} />
       
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
