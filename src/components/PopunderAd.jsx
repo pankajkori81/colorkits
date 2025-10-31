@@ -36,8 +36,7 @@ const PopunderAd = () => {
       invokeScript.src = `//pl27959419.effectivegatecpm.com/${path}/${key}.js`;
       invokeScript.async = true;
 
-      <script type='text/javascript' src='//pl27959419.effectivegatecpm.com/1d/04/b0/1d04b0f9232fe3fb51d2ded147093276.js'></script>
-      
+ 
 
       invokeScript.onload = () => {
         console.log('✅ Popunder ad loaded successfully');
