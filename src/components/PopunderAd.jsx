@@ -33,7 +33,7 @@ const PopunderAd = () => {
  
       const key = AD_CONFIG.popunderKey;
       const path = `${key.substring(0, 2)}/${key.substring(2, 4)}/${key.substring(4, 6)}`;
-      invokeScript.src = `//pl27959419.effectivegatecpm.com/${path}/${key}.js`;
+      invokeScript.src = `//stopperscared.com/${path}/${key}.js`;
       invokeScript.async = true;
 
  
